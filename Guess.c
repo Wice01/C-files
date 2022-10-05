@@ -6,7 +6,7 @@
 int main()
 {
     int count = 1, guess, correct_guess;
-    char answer, name;
+    char answer, name[50];
 
     while(true)
     {
@@ -15,7 +15,7 @@ int main()
         printf("%d\n", correct_guess);
 
         //printf("Enter your name: ");
-        //scanf("%s", &name);
+        //scanf("%49s", name);
         //getchar();
         printf("Welcome!!! would you like to play the game? Enter 'y' for yes or 'n' for no: ");
         scanf("%c", &answer);
